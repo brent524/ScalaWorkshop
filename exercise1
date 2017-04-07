@@ -1,0 +1,7 @@
+/**
+ * EXERCISE 1: Write a function that prints a multiplication table.
+ */
+def printMultiplicationTable(n:Int) = {
+  // your code goes here
+  println(s"Multiplication table up to $n x $n")
+}
