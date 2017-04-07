@@ -2,6 +2,7 @@
  * EXERCISE 0: Write a function that returns the nth fibonacci number.
  */
 def fib(n:Int): Int = {
-  val fib = fib(n-1)+fib(n)
-  if (n == 0) return
+  if (n == 0) 0
+  else if (n == 1) 1
+  else fib(n-1)+fib(n)
 }
