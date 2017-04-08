@@ -2,6 +2,10 @@
  * EXERCISE 1: Write a function that prints a multiplication table.
  */
 def printMultiplicationTable(n:Int) = {
-  // your code goes here
+  for row 0 to n {
+      for col 0 to n 
+          print row * col + tab
+      print new line
+  }
   println(s"Multiplication table up to $n x $n")
 }
